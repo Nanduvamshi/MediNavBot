@@ -15,22 +15,12 @@ Natural Language Processing (NLP): NLTK, WordNetLemmatizer
 Dataset: intents.json (contains tags, responses, contexts, patterns)
 Preprocessing & Training: Tokenization, Lemmatization, Text Classification
 Setup & Installation
-# Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/chatbot-project.git
-cd chatbot-project
-Install dependencies:
-bash
-Copy
-Edit
-pip install tensorflow keras nltk
-Run the chatbot:
-bash
-Copy
-Edit
-python chatbot.py
+# Project Structure
+intents.json – Contains chatbot responses, intents, and training patterns.
+labels.pkl – Predefined topic labels for categorizing queries.
+words.pkl – Processed words for NLP-based text classification.
+train.py – Script to train the chatbot model using CNNs.
+chatbot.py – Chat interface to interact with the trained model.
 # How It Works
 The chatbot processes user input using NLP preprocessing.
 It classifies the intent using a CNN-based model trained on intents.json.

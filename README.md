@@ -14,7 +14,7 @@ Deep Learning: Convolutional Neural Networks (CNNs), TensorFlow, Keras
 Natural Language Processing (NLP): NLTK, WordNetLemmatizer
 Dataset: intents.json (contains tags, responses, contexts, patterns)
 Preprocessing & Training: Tokenization, Lemmatization, Text Classification
-Setup & Installation
+
 # Project Structure
 intents.json – Contains chatbot responses, intents, and training patterns.
 labels.pkl – Predefined topic labels for categorizing queries.
